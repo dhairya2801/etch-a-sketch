@@ -11,21 +11,20 @@ body {
     color: white;
 }
 
-#btn {
+.buttons > button {
     border: 1px solid white;
-    background: rgb(230, 230, 230);
+    background: rgb(255, 155, 49);
+    border: 1px solid orange;
     color: black;
     padding: 10px;
     border-radius: 8px;
+    margin: 10px;
 }
 
 #container {
     display: flex;
-    width: 1120px;
+    height: 500px;
+    width: 500px;
     flex-wrap: wrap;
-}
-
-#container > div {
-    box-sizing: border-box;
-    border: 1px solid white;
+    border: 2px solid white;
 }

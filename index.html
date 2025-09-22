@@ -9,7 +9,12 @@
 </head>
 <body>
     <h1 id="heading">Etch-a-Sketch</h1>
-    <button id="btn">Change Grid Size</button>
+    <div class="buttons">
+        <button id="btn">Change Grid Size</button>
+        <button id="erase" onclick="eraseGrid()">Erase Grid</button>
+    </div>
+    
+    <p class="currentSize" style="color: white;">Current Size: 16x16</p>
     <div id="container">
 
     </div>
